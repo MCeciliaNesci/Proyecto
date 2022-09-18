@@ -69,27 +69,15 @@ header img{
 	background: rgb(142, 139, 102);
 	font-family: "textos";
 	margin-bottom: 2em;
-	width: 25%;/****1******agrego un valor porcentual ,para que las cajas se acomoden en 
-	3 columnas...Como ninguna tiene alto , el alto se determina automaticamente 
-	de acuerdo a su contenido*/
-	/*float: left;/*No Usar!!!!este podria ser una manera de arreglarlo , pero queda mal
-	No usar esto porque queda distinto el contenido de las cajas*/
-	/*podria arreglarlo con un alto fijo .. pero puede que no sea suficiente a veces*/
-	/*algunos usan javascript ... pero es mas codigo y usa posiciones absolutas , cosa
-	que molestaria mucho al responsive*/
+	width: 25%;
 }
 
 
 /****2****Agrego esta clase para usar FLEXBOX!!!!*/
 .cards{
-	display: flex;/*acomoda todo horizontal pero modifica los anchos automaticamente
-	para que todos entren en la pantalla--PERO AJUSTO EL ALTO!!*/
-	flex-wrap: wrap;/*ajusta los tamanios al ancho que le habiamos indicado 33%*/
-	justify-content: space-between;/*para que el 1% que me sobra (use 33%) se distribuya
-	hacia adentro----con space-arraund nos tiraria 0.5 al margen izquierdo y 0.5
-	al margen derecho*/
-	/*si quiero un espacio mas grande entre tarjetas , achico el 33% , y como 
-	sobra un poco mas tiene mas espacio de separacion*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .tarjeta a{
