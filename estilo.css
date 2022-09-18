@@ -1,0 +1,129 @@
+body{
+	background: hsl(0, 0%, 90%);
+	margin: 0;
+}
+
+html{
+	font-family: sans-serif;
+}
+
+.cabecera{
+background: hsl(215, 21%, 83%);
+}
+
+@font-face {
+	font-family: "titulos" ;
+	src: url(../TPO/Fonts/Orchard\ Song\ Free\ Trial.otf);
+}
+@font-face {
+	font-family: "textos";
+	src: url(../TPO/Fonts/Fragmentcore.otf);
+}
+
+header h1{
+	text-align: center;
+	color: rgb(4, 105, 46);
+	font-family: "textos";
+	font-size: 35pt;
+	}
+header img{
+	width: 1000px;
+	height: 50px; 
+}
+
+.btn{
+	align-items: center;
+	font-size: 10px;
+	color: rgb(44, 12, 148);
+}
+
+.centrado{
+	margin: 0 auto;
+	padding: 0 0.8em;
+}
+
+@media screen and (min-width: 52em){
+	.centrado{
+		max-width: 52em;
+	}
+}
+
+.titulo1{
+	margin: 0 0 1em;
+	padding: 1em 0;
+	font-size: 2em;
+	font-weight: 300;
+	text-align: center;
+	color: white;
+}
+.titulo2{
+	margin: 0 0 1em;
+	padding: 1em 0;
+	font-size: 2em;
+	font-weight: 150;
+	text-align: center;
+	color: white;
+}
+
+.tarjeta{
+	background: rgb(142, 139, 102);
+	font-family: "textos";
+	margin-bottom: 2em;
+	width: 25%;/****1******agrego un valor porcentual ,para que las cajas se acomoden en 
+	3 columnas...Como ninguna tiene alto , el alto se determina automaticamente 
+	de acuerdo a su contenido*/
+	/*float: left;/*No Usar!!!!este podria ser una manera de arreglarlo , pero queda mal
+	No usar esto porque queda distinto el contenido de las cajas*/
+	/*podria arreglarlo con un alto fijo .. pero puede que no sea suficiente a veces*/
+	/*algunos usan javascript ... pero es mas codigo y usa posiciones absolutas , cosa
+	que molestaria mucho al responsive*/
+}
+
+
+/****2****Agrego esta clase para usar FLEXBOX!!!!*/
+.cards{
+	display: flex;/*acomoda todo horizontal pero modifica los anchos automaticamente
+	para que todos entren en la pantalla--PERO AJUSTO EL ALTO!!*/
+	flex-wrap: wrap;/*ajusta los tamanios al ancho que le habiamos indicado 33%*/
+	justify-content: space-between;/*para que el 1% que me sobra (use 33%) se distribuya
+	hacia adentro----con space-arraund nos tiraria 0.5 al margen izquierdo y 0.5
+	al margen derecho*/
+	/*si quiero un espacio mas grande entre tarjetas , achico el 33% , y como 
+	sobra un poco mas tiene mas espacio de separacion*/
+}
+
+.tarjeta a{
+	color: black;
+	text-decoration: none;
+}
+
+.tarjeta a:hover{
+	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.tarjeta-content{  
+	padding: 1.4em;
+	
+}
+
+.tarjeta-content h2{
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: normal;
+}
+
+.tarjeta-content p{
+	font-size: 95%;
+}
+
+figure{
+	margin: 0;
+}
+
+img{
+	display: block;
+	border:0;
+	width: 100%;
+	height: 150px;
+}
+
