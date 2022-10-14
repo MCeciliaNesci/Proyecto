@@ -1,52 +1,53 @@
-body{
-	background: hsl(0, 0%, 90%);
-	margin: 0;
-}
-
 html{
-	font-family: sans-serif;
+	font-family:"titulos";
+	font-size: 1rem;
+	height: 100%;
 }
-
-.cabecera{
-background: hsl(215, 21%, 83%);
+body, header, main, footer{
+	border: 3px gray solid;
+	min-height: 50px;
+	background-color: rgb(142, 139, 102);
+	font-family: "titulos";
+	margin:0,5rem;
+	min-width: 400px; 
 }
-
 @font-face {
 	font-family: "titulos" ;
-	src: url(../TPO/Fonts/Orchard\ Song\ Free\ Trial.otf);
+	src: url(../Fonts/Orchard\ Song\ Free\ Trial.otf);
 }
 @font-face {
 	font-family: "textos";
-	src: url(../TPO/Fonts/Fragmentcore.otf);
+	src: url(../Fonts/Fragmentcore.otf);
+}
+.logo{
+	min-height: 2rem;
+	max-width: 2rem;
 }
 
-header h1{
-	text-align: center;
-	color: rgb(4, 105, 46);
-	font-family: "textos";
-	font-size: 35pt;
-	}
-header img{
-	width: 1000px;
-	height: 50px; 
-}
-
-.btn{
-	align-items: center;
-	font-size: 10px;
-	color: rgb(44, 12, 148);
-}
-
-.centrado{
-	margin: 0 auto;
-	padding: 0 0.8em;
-}
-
-@media screen and (min-width: 52em){
-	.centrado{
+.centro{
 		max-width: 52em;
 	}
-}
+
+*{
+		padding: 0;
+		box-sizing: border-box;
+	 }
+	
+header{
+		background-color: black;
+	}
+
+.btn{
+		align-items: center;
+		font-size: 10px;
+		color: rgb(44, 12, 148);
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+main{
+		min-height: 200px;
+		background-color: antiquewhite;
+	}
 
 .titulo1{
 	margin: 0 0 1em;
@@ -66,14 +67,16 @@ header img{
 }
 
 .tarjeta{
-	background: rgb(142, 139, 102);
+	background-color: aliceblue;
 	font-family: "textos";
 	margin-bottom: 2em;
 	width: 25%;
+	justify-content: center;
+	align-content: center;
 }
 
 
-/****2****Agrego esta clase para usar FLEXBOX!!!!*/
+/*Agrego esta clase para usar FLEXBOX*/
 .cards{
 	display: flex;
 	flex-wrap: wrap;
