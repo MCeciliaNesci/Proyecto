@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/asesoramiento.css">
+    
     <title>Asesoramiento online</title>
 </head>
 <body>
@@ -50,6 +51,10 @@
                         </select>
                     </label>
                     <br>
+                    <label> Ingrese su correo electronico: 
+                        <input name="text" name="Correo Electronico" required>
+                    </label>
+                    <br>
                     <label>Comentarios:
                         <br>
                         <textarea name="comentarios" cols="30" rows="10">
@@ -63,7 +68,22 @@
                 
                 </form>
             </section>
-        </div>      
+        </div>  
+        
+        <script>
+            document.getElementById('email').addEventListener('input', function () {
+                    campo = event.target;
+                    valido = document.getElementById('emailOK');
+
+                    emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
+                    //Se muestra un texto a modo de ejemplo, luego va a ser un icono
+                    if (emailRegex.test(campo.value)) {
+                        valido.innerText = "válido";
+                    } else {
+                        valido.innerText = "incorrecto";
+                    }
+                });
+        </script>        
     </main>
 
     <Footer>
