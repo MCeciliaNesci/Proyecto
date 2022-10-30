@@ -15,19 +15,20 @@ main {
 
 .img {
   position: relative;
-  height: 50vh;
+  height: 30vh;
   width: auto;
   display: flex;
   justify-content: space-around;
-  align-items: space-between;
+  align-items: space-around;
   background: linear-gradient(aquamarine, lightblue);
 }
 
 #foto {
-  min-height: 200px;
-  min-width: 200px;
   height: auto;
   width: auto;
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: 20px;
 }
 
 .productos {

@@ -1,120 +1,118 @@
-html{
-	font-family:"titulos";
-	font-size: 1rem;
-	height: 100%;
+html {
+  font-family: "titulos";
+  font-size: 1rem;
+  height: 100%;
 }
-body, header, main, footer{
-	border: 3px gray solid;
-	min-height: 50px;
-	background-color: rgb(142, 139, 102);
-	font-family: "titulos";
-	margin:0,5rem;
-	min-width: 400px; 
+body,
+header,
+main,
+footer {
+  border: 3px gray solid;
+  min-height: 50px;
+  background-color: rgb(142, 139, 102);
+  font-family: "titulos";
+  margin: 0, 5rem;
+  min-width: 400px;
 }
 @font-face {
-	font-family: "titulos" ;
-	src: url(../Fonts/Orchard\ Song\ Free\ Trial.otf);
+  font-family: "titulos";
+  src: url(../Fonts/Orchard\ Song\ Free\ Trial.otf);
 }
 @font-face {
-	font-family: "textos";
-	src: url(../Fonts/Fragmentcore.otf);
+  font-family: "textos";
+  src: url(../Fonts/Fragmentcore.otf);
 }
-.logo{
-	min-height: 2rem;
-	max-width: 2rem;
+.logo {
+  margin: 10px 20px;
 }
-
-.centro{
-		max-width: 52em;
-	}
-
-*{
-		padding: 0;
-		box-sizing: border-box;
-	 }
-	
-header{
-		background-color: black;
-	}
-
-.btn{
-		align-items: center;
-		font-size: 10px;
-		color: rgb(44, 12, 148);
-		font-family: Arial, Helvetica, sans-serif;
-	}
-	
-main{
-		min-height: 200px;
-		background-color: antiquewhite;
-	}
-
-.titulo1{
-	margin: 0 0 1em;
-	padding: 1em 0;
-	font-size: 2em;
-	font-weight: 300;
-	text-align: center;
-	color: white;
-}
-.titulo2{
-	margin: 0 0 1em;
-	padding: 1em 0;
-	font-size: 2em;
-	font-weight: 150;
-	text-align: center;
-	color: white;
+.centro {
+  max-width: 52em;
 }
 
-.tarjeta{
-	background-color: aliceblue;
-	font-family: "textos";
-	margin-bottom: 2em;
-	width: 25%;
-	justify-content: center;
-	align-content: center;
+* {
+  padding: 0;
+  box-sizing: border-box;
 }
 
+header {
+  background-color: black;
+}
+
+.btn {
+  align-items: center;
+  font-size: 10px;
+  color: rgb(44, 12, 148);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  min-height: 200px;
+  background-color: antiquewhite;
+}
+
+.titulo1 {
+  margin: 0 0 1em;
+  padding: 1em 0;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+.titulo2 {
+  margin: 0 0 1em;
+  padding: 1em 0;
+  font-size: 2em;
+  font-weight: 150;
+  text-align: center;
+  color: white;
+}
+
+.tarjeta {
+  background-color: aliceblue;
+  font-family: "textos";
+  margin-bottom: 2em;
+  width: 25%;
+  justify-content: center;
+  align-content: center;
+}
 
 /*Agrego esta clase para usar FLEXBOX*/
-.cards{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.tarjeta a{
-	color: black;
-	text-decoration: none;
+.tarjeta a {
+  color: black;
+  text-decoration: none;
 }
 
-.tarjeta a:hover{
-	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+.tarjeta a:hover {
+  box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
 }
 
-.tarjeta-content{  
-	padding: 1.4em;
-	
+.tarjeta-content {
+  padding: 1.4em;
 }
 
-.tarjeta-content h2{
-	margin-top: 0;
-	margin-bottom: .5em;
-	font-weight: normal;
+.tarjeta-content h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: normal;
 }
 
-.tarjeta-content p{
-	font-size: 95%;
+.tarjeta-content p {
+  font-size: 95%;
 }
 
-figure{
-	margin: 0;
+figure {
+  margin: 0;
 }
 
-img{
-	display: block;
-	border:0;
-	width: 100%;
-	height: 150px;
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: 150px;
 }
-
