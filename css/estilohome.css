@@ -1,40 +1,67 @@
 @font-face {
-	font-family: "textos" ;
-	src: url(../Fonts/Orchard\ Song\ Free\ Trial.otf);
+  font-family: "textos";
+  src: url(../Fonts/Orchard\ Song\ Free\ Trial.otf);
 }
 @font-face {
-    font-family: "titulos";
-    src: url(../Fonts/Fragmentcore.otf);
+  font-family: "titulos";
+  src: url(../Fonts/Fragmentcore.otf);
 }
- *{
-    padding: 0;
-    box-sizing: border-box;
- }
-
- html{
-    font-size: 1rem;
-    height: 100%;
- }
-
-body, header, main, footer{
-    border: 3px gray solid;
-    min-height: 50px;
-    background-color: rgb(142, 139, 102);
-    font-family: "titulos";
-    margin:0,5rem;
-    min-width: 400px;  
+* {
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    background-color: black;
-}
-.btn{
-	align-items: center;
-	font-size: 10px;
-	color: rgb(44, 12, 148);
+html {
+  font-size: 1.5rem;
+  height: 100%;
 }
 
-main{
-    min-height: 200px;
-    background-color: antiquewhite;
+.logo {
+  margin: 10px 20px;
+  background-image: url("../OIP\ estaciones.jpeg");
+}
+
+body,
+header,
+main,
+footer {
+  border: 3px gray solid;
+  min-height: 50px;
+  background-color: rgb(163, 63, 245);
+  font-family: "titulos";
+  margin: 0, 5rem;
+  min-width: 400px;
+}
+
+.btn {
+  align-items: center;
+  font-size: 10px;
+  color: rgb(44, 12, 148);
+}
+
+main {
+  min-height: 200px;
+  background-color: antiquewhite;
+}
+
+.secciones {
+  background: linear-gradient(rgb(192, 170, 245), aquamarine);
+}
+
+#foto {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 20px 20px 20px 40px;
+  align-items: space-around;
+}
+
+#logito {
+  display: block;
+  border: 0;
+  width: 25vw;
+  height: 25vh;
+}
+
+.truco {
+  background-color: rgb(118, 164, 233);
 }
