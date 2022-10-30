@@ -9,38 +9,77 @@
 </head>
 <body>
     <header>
-        <div>
+                <div class="logo">
+                    <img src="../Logo.jpg" alt="">
+                </div>
+    
+        
+    <div>
             <a href="../html/Servicios.html"><button type="button">Servicios y Cursos</button></a>
             <a href="../html/Tienda.html"><button type="button">Tienda virtual</button></a>
             <a href="../html/QuiensSomos.html"><button type="button">Quienes Somos</button></a>
-        </div>
+    </div>
     </header>
     <main>
-        <section>
-            <div class="img">
-                <img src="../OIP (1).jpg" alt="">
-                <img src="../locion.png" alt="">
-                <img src="../OIP crema.jpeg" alt="">
-            </div>
-        </section>
-
-        <section>
-            <div>
+       <div >
+            <section class="img">
+                <img src="../OIP (1).jpg"  id="foto" alt="">
+                <img src="../locion.png" id="foto" alt="">
+                <img src="../OIP crema.jpeg" id="foto" alt="">
+            </section>
+        </div>
+        <div>
+            <section>
+                
                 <h1 class="productos">Encontra nuestros productos</h1>
                     <li>Cremas</li>
                     <li>Lociones</li>
                     <li>Shampoo solido</li>
+            </section>
 
-            </div>
+        </div>
 
-           
-        </section>
-
-        <section>
-            <h1>Realiza tu pedido por whatsapp</h1>
-        </section>
-
+        <div>
+            <section>
+                <h1 id="formulario">Realiza tu pedido por whatsapp</h1>
+                <form action="https://formspree.io/f/mqkjyndd" method="post">
+                    <label>Nombre:
+                        <input type="text" name="Nombre" required>
+                    </label>
+                    <br>
+                    <label>Apellido:
+                        <input type="text" name="Apellido" required>
+                    </label>
+                    <br>
+                    <label>Seleccione su producto:
+                        <select name="">
+                            <option value="crema">Crema</option>
+                            <option value="locion">Locion</option>
+                            <option value="shampoo">Shampoo</option>
+                        </select>
+                    </label>
+                    <br>
+                    <label>Comentarios:
+                        <br>
+                        <textarea name="comentarios" cols="30" rows="10">
+                
+                                            </textarea>
+                    </label>
+                    <br>
+                    <input type="submit" name="submit">
+                    <input type="reset" name="reset">
+                
+                
+                </form>
+            </section>
+        </div>      
     </main>
+
+    <Footer>
+        <p class="footer">Derecchos reservados 2022</p>
+    
+    
+    </Footer>
     
 </body>
 </html>

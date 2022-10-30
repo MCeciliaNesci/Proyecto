@@ -1,19 +1,61 @@
+header {
+  background: antiquewhite;
+  border-width: 4px;
+  border-style: double;
+}
+
+main {
+  border: 3px rgb(58, 4, 80) dotted;
+  min-height: 50px;
+  background: linear-gradient(lightblue, darkblue);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0, 5rem;
+  min-width: 400px;
+}
+
+.img {
+  position: relative;
+  height: 50vh;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-between;
+  background: linear-gradient(aquamarine, lightblue);
+}
+
+#foto {
+  min-height: 200px;
+  min-width: 200px;
+  height: auto;
+  width: auto;
+}
+
 .productos {
-    font-size: 1rem;
-    color: crimson;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+  font-size: 2rem;
+  color: darkblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
 
-
-body,
-main,
-footer {
-    border: 3px rgb(58, 4, 80) dotted;
-    min-height: 50px;
-    background-color: rgb(157, 102, 245);
-    font-family:Arial, Helvetica, sans-serif;
-    margin: 0, 5rem;
-    min-width: 400px;
+#formulario {
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(25, 2, 78);
+  font-style: oblique;
 }
 
+.logo {
+  margin: 10px 20px;
+}
+
+.footer {
+  background-color: blue;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  color: aqua;
+  border: 3px gray solid;
+  min-height: 50px;
+  margin: 0, 5rem;
+}
