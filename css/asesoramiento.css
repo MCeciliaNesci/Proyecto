@@ -50,6 +50,14 @@ main {
 
 .logo {
   margin: 10px 20px;
+  background-image: url("../OIP\ estaciones.jpeg");
+}
+
+#logito {
+  display: block;
+  border: 0;
+  width: 25vw;
+  height: 25vh;
 }
 
 .footer {
@@ -73,5 +81,5 @@ main {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
   font-size: 2rem;
-  color: rgb(13, 155, 13);
+  color: rgb(129, 6, 82);
 }

@@ -18,6 +18,7 @@ html {
 
 .logo {
   margin: 10px 20px;
+  background-image: url("../OIP\ estaciones.jpeg");
 }
 
 body,
@@ -26,15 +27,12 @@ main,
 footer {
   border: 3px gray solid;
   min-height: 50px;
-  background-color: rgb(142, 139, 102);
+  background-color: rgb(163, 63, 245);
   font-family: "titulos";
   margin: 0, 5rem;
   min-width: 400px;
 }
 
-header {
-  background-color: rgb(233, 155, 233);
-}
 .btn {
   align-items: center;
   font-size: 10px;
@@ -53,14 +51,15 @@ main {
 #foto {
   max-width: 150px;
   max-height: 150px;
-  margin: 20px 20px 10px;
+  margin: 20px 20px 20px 40px;
+  align-items: space-around;
 }
 
 #logito {
   display: block;
   border: 0;
-  width: 20vw;
-  height: 20vh;
+  width: 25vw;
+  height: 25vh;
 }
 
 .truco {

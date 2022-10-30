@@ -35,6 +35,10 @@ footer {
 header {
   background-color: antiquewhite;
 }
+.logo {
+  margin: 10px 20px;
+  background-image: url("../OIP\ estaciones.jpeg");
+}
 
 .btn {
   align-items: center;
@@ -113,8 +117,4 @@ img {
   border: 0;
   width: 100%;
   height: 150px;
-}
-
-.logo {
-  margin: 10px 20px;
 }
