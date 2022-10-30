@@ -24,14 +24,14 @@ main {
 }
 
 #foto {
-  height: auto;
-  width: auto;
-  max-width: 150px;
-  max-height: 150px;
   margin-top: 20px;
+  width: 200px;
+  height: auto;
+  justify-content: space-between;
 }
 
 .productos {
+  margin: 10px;
   font-size: 2rem;
   color: darkblue;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -45,6 +45,7 @@ main {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(25, 2, 78);
   font-style: oblique;
+  margin-left: 10px;
 }
 
 .logo {
@@ -59,4 +60,18 @@ main {
   border: 3px gray solid;
   min-height: 50px;
   margin: 0, 5rem;
+}
+
+.prod2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: darkmagenta;
+}
+
+.prod3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: rgb(13, 155, 13);
 }

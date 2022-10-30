@@ -12,7 +12,7 @@
 }
 
 html {
-  font-size: 1rem;
+  font-size: 1.5rem;
   height: 100%;
 }
 
@@ -47,24 +47,22 @@ main {
 }
 
 .secciones {
-  background: linear-gradient(aquamarine, lightblue);
+  background: linear-gradient(rgb(192, 170, 245), aquamarine);
 }
 
 #foto {
-  height: auto;
-  width: auto;
   max-width: 150px;
   max-height: 150px;
-  margin-top: 20px;
-  align-items: stretch;
+  margin: 20px 20px 10px;
 }
 
 #logito {
-  align-items: stretch;
-  justify-items: center;
-  justify-content: center;
+  display: block;
+  border: 0;
+  width: 20vw;
+  height: 20vh;
 }
 
 .truco {
-  background: linaer-gradient(blue, orange);
+  background-color: rgb(118, 164, 233);
 }
