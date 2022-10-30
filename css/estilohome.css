@@ -33,7 +33,7 @@ footer {
 }
 
 header {
-  background-color: black;
+  background-color: rgb(233, 155, 233);
 }
 .btn {
   align-items: center;
@@ -44,4 +44,27 @@ header {
 main {
   min-height: 200px;
   background-color: antiquewhite;
+}
+
+.secciones {
+  background: linear-gradient(aquamarine, lightblue);
+}
+
+#foto {
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: 20px;
+  align-items: stretch;
+}
+
+#logito {
+  align-items: stretch;
+  justify-items: center;
+  justify-content: center;
+}
+
+.truco {
+  background: linaer-gradient(blue, orange);
 }
